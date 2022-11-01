@@ -15,7 +15,7 @@ function BoxComponent(props){
     return React.createElement(
         "div",{
             style:{
-                with: "200px",
+                width: "200px",
                 height: "200px",
                 backgroundColor: props.hatterSzin,
             },
